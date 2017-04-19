@@ -1,7 +1,7 @@
 fts_commute_visualizer
 ===
 
-Build visualizations showing how far you can commute based on transportation mode and traffic.
+Build visualizations to see how far you can commute based on transportation mode and real world traffic.
 
 ## Blog Post
 
