@@ -42,13 +42,13 @@ The Google cloud free tier is limited to 2500 requests per day. Each hexagon cou
 Todo.
 
 
-FAQS
+FAQ
 ===
 
-#### What is fts_commute_visualizer
+#### What is fts_commute_visualizer?
 A tool I built to help visualize how long it takes to commute based on a variety of factors.
 
-#### What license.
+#### What license?
 All source code is embedded with a dual license. Choose either MIT or Unlicense. See index.html for details.
 
 #### What is FTS?
