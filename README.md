@@ -7,7 +7,6 @@ Build visualizations showing how far you can commute based on transportation mod
 
 For additional information read my extensive [blog post](https://blog.forrestthewoods.com).
 
-
 ## Features
 
 * Visualize time and range you can commute to from your home
@@ -38,7 +37,7 @@ You will need your own API key. Creating a new one is free and easy.
 The Google cloud free tier is limited to 2500 requests per day. Each hexagon counts as 1 request. After reaching your daily limit Google Maps API calls are heavily throttled.
 
 
-## Example screenshots. 
+## Examples 
 
 Todo.
 
@@ -47,5 +46,15 @@ FAQS
 ===
 
 #### What is fts_commute_visualizer
+A tool I built to help visualize how long it takes to commute based on a variety of factors.
 
-A tool I built to help visualize how long it takes to commute
+#### What license.
+All source code is embedded with a dual license. Choose either MIT or Unlicense. See index.html for details.
+
+#### What is FTS?
+My initials; Forrest Thomas Smith.
+
+#### Why single file?
+Why would this be more than one file? It's a simple project. The whole thing is just 1200 lines of code. Google Maps does all the real work.
+
+It doesn't need a framework. It doesn't need a build system. It doesn't even need jquery. [Vanilla JS](http://vanilla-js.com/) is more than enough.
