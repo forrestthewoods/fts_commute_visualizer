@@ -9,13 +9,10 @@ For additional information read my extensive [blog post](https://blog.forrestthe
 
 ## Features
 
-* Visualize time and range you can commute to from your home
-* Visualize time and range it takes to commute to your work place
+* Visualize commute times and range both from home or to a destination
 * See commute times for walking, bicycling, public transit, or driving.
-* Specify departure time to see commute times WITH TRAFFIC
-* Commute on foot, bicycle, public transit, or car
-* Specify departure time (driving or transit) or arrival time (transit only)
-* Specify traffic conditions (driving only): Best Guess, Optimistic, Pessimistic
+* See commute time **with traffic* (driving only)
+* Specify driving traffic conditions: Best Guess, Optimistic, Pessimistic
 * Works in any city for which Google Maps has data
 
 
@@ -46,15 +43,18 @@ FAQ
 ===
 
 #### What is fts_commute_visualizer?
-A tool I built to help visualize how long it takes to commute based on a variety of factors.
+A tool I built to help visualize how long it takes to commute based on a mode of transport and travel time.
 
 #### What license?
-All source code is embedded with a dual license. Choose either MIT or Unlicense. See index.html for details.
+All source code is embedded with a dual license. Choose either MIT or Unlicense. See fts_commute_visualizer.html for details.
 
 #### What is FTS?
 My initials; Forrest Thomas Smith.
 
-#### Why single file?
+#### Why a single file?
 Why would this be more than one file? It's a simple project. The whole thing is just 1200 lines of code. Google Maps does all the real work.
 
 It doesn't need a framework. It doesn't need a build system. It doesn't even need jquery. [Vanilla JS](http://vanilla-js.com/) is more than enough.
+
+#### Why is your code so bad?
+I'm a video game programmer. I don't know how to write idiomatic JavaScript. I tried my best to keep things easy to understand follow. Dynamic languages are hard.
