@@ -54,9 +54,9 @@ It doesn't need a framework. It doesn't need a build system. It doesn't even nee
 #### Why is your code so bad?
 I'm a video game programmer. I don't know how to write idiomatic JavaScript. I tried my best to keep things easy to understand follow. Dynamic languages are hard.
 
-===
 
-## Examples 
+Examples 
+===
 
 Here is some example output produced by my tool. For a more detailed look please read my [blog post](blog.forrestthewoods.com).
 
