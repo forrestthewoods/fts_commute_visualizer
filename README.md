@@ -60,7 +60,9 @@ Examples
 
 Here is some example output produced by my tool. For a more detailed look please read my [blog post](blog.forrestthewoods.com).
 
-### Commuting to South Lake Union in Seattle, Wa
+### South Lake Union
+
+South Lake Union is a booming Seattle neighborhood. Located within are offices for Amazon, Google, Facebook, and more. Here is what it looks like to commute to South Lake Union at 8:00 am.
 
 ![](/examples/southlakeunion_0.png?raw=true)
 ![](/examples/southlakeunion_1.png?raw=true)
@@ -68,12 +70,16 @@ Here is some example output produced by my tool. For a more detailed look please
 ![](/examples/southlakeunion_3.png?raw=true)
 ![](/examples/southlakeunion_4.png?raw=true)
 
-### Commuting from Kenmore, Wa (Suburbia)
+### Kenmore, Wa
+
+A few years ago I lived in the Seattle suburb of Kenmore. Located at the northern tip of Lake Washington it allows for access to both the west and east side. Even better there's a large park and ride transit hub. Here's what it looks like to commute from Kenmore at 8:00 am.
 
 ![](/examples/kenmore_0.png?raw=true)
 ![](/examples/kenmore_1.png?raw=true)
 ![](/examples/kenmore_2.png?raw=true)
 
 ### Browser Tool
+
+Here's what the tool actually looks like. There are a variety of controls such as mode of transport, travel direction, and travel time.
 
 ![](/examples/tool.png?raw=true)
