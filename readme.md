@@ -5,7 +5,7 @@ Build visualizations to see how far you can commute based on transportation mode
 
 ## Blog Post
 
-For additional information read my extensive [blog post](blog.forrestthewoods.com).
+For additional information read my extensive [blog post](https://blog.forrestthewoods.com/visualizing-commute-times-378009330ffa).
 
 ## Features
 
@@ -58,7 +58,7 @@ I'm a video game programmer. I don't know how to write idiomatic JavaScript. I t
 Examples 
 ===
 
-Here is some example output produced by my tool. For a more detailed look please read my [blog post](blog.forrestthewoods.com).
+Here is some example output produced by my tool. For a more detailed look please read my [blog post](https://blog.forrestthewoods.com/visualizing-commute-times-378009330ffa).
 
 ### South Lake Union
 
