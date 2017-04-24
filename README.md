@@ -34,6 +34,28 @@ You will need your own API key. Creating a new one is free and easy.
 The Google cloud free tier is limited to 2500 requests per day. Each hexagon counts as 1 request. After reaching your daily limit Google Maps API calls are heavily throttled.
 
 
+FAQ
+===
+
+#### What is fts_commute_visualizer?
+A tool I built to help visualize how long it takes to commute based on a mode of transport and travel time.
+
+#### What license?
+All source code is embedded with a dual license. Choose either MIT or Unlicense. See fts_commute_visualizer.html for details.
+
+#### What is FTS?
+My initials; Forrest Thomas Smith.
+
+#### Why a single file?
+Why would this be more than one file? It's a simple project. The whole thing is just 1500 lines long. Google Maps does all the real work.
+
+It doesn't need a framework. It doesn't need a build system. It doesn't even need jquery. [Vanilla JS](http://vanilla-js.com/) is more than enough.
+
+#### Why is your code so bad?
+I'm a video game programmer. I don't know how to write idiomatic JavaScript. I tried my best to keep things easy to understand follow. Dynamic languages are hard.
+
+===
+
 ## Examples 
 
 Here is some example output produced by my tool. For a more detailed look please read my [blog post](blog.forrestthewoods.com).
@@ -55,24 +77,3 @@ Here is some example output produced by my tool. For a more detailed look please
 ### Browser Tool
 
 ![](/examples/tool.png?raw=true)
-
-
-FAQ
-===
-
-#### What is fts_commute_visualizer?
-A tool I built to help visualize how long it takes to commute based on a mode of transport and travel time.
-
-#### What license?
-All source code is embedded with a dual license. Choose either MIT or Unlicense. See fts_commute_visualizer.html for details.
-
-#### What is FTS?
-My initials; Forrest Thomas Smith.
-
-#### Why a single file?
-Why would this be more than one file? It's a simple project. The whole thing is just 1500 lines long. Google Maps does all the real work.
-
-It doesn't need a framework. It doesn't need a build system. It doesn't even need jquery. [Vanilla JS](http://vanilla-js.com/) is more than enough.
-
-#### Why is your code so bad?
-I'm a video game programmer. I don't know how to write idiomatic JavaScript. I tried my best to keep things easy to understand follow. Dynamic languages are hard.
