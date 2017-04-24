@@ -51,8 +51,8 @@ Why would this be more than one file? It's a simple project. The whole thing is 
 
 It doesn't need a framework. It doesn't need a build system. It doesn't even need jquery. [Vanilla JS](http://vanilla-js.com/) is more than enough.
 
-#### Why is your code so bad?
-I'm a video game programmer. I don't know how to write idiomatic JavaScript. I tried my best to keep things easy to understand follow. Dynamic languages are hard.
+#### Why is the code so bad?
+I'm a video game programmer. I don't know how to write idiomatic JavaScript. I tried my best to keep things easy to understand. Dynamic languages are hard.
 
 
 Examples 
