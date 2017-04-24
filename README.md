@@ -5,7 +5,7 @@ Build visualizations to see how far you can commute based on transportation mode
 
 ## Blog Post
 
-For additional information read my extensive [blog post](https://blog.forrestthewoods.com).
+For additional information read my extensive [blog post](blog.forrestthewoods.com).
 
 ## Features
 
@@ -29,14 +29,32 @@ You will need your own API key. Creating a new one is free and easy.
 3. Enable Google Maps Javascript API
 4. Enable Google Maps Distance Matrix API
 5. Enable Google Maps Time Zone API
-6. Replace "YOUR_API_KEY" in index.html with your API key.
+6. Replace "YOUR_API_KEY" with your API key.
 
 The Google cloud free tier is limited to 2500 requests per day. Each hexagon counts as 1 request. After reaching your daily limit Google Maps API calls are heavily throttled.
 
 
 ## Examples 
 
-Todo.
+Here is some example output produced by my tool. For a more detailed look please read my [blog post](blog.forrestthewoods.com).
+
+### Commuting to South Lake Union in Seattle, Wa
+
+![](/examples/southlakeunion_0.png?raw=true)
+![](/examples/southlakeunion_1.png?raw=true)
+![](/examples/southlakeunion_2.png?raw=true)
+![](/examples/southlakeunion_3.png?raw=true)
+![](/examples/southlakeunion_4.png?raw=true)
+
+### Commuting from Kenmore, Wa (Suburbia)
+
+![](/examples/kenmore_0.png?raw=true)
+![](/examples/kenmore_1.png?raw=true)
+![](/examples/kenmore_2.png?raw=true)
+
+### Browser Tool
+
+![](/examples/tool.png?raw=true)
 
 
 FAQ
@@ -52,7 +70,7 @@ All source code is embedded with a dual license. Choose either MIT or Unlicense.
 My initials; Forrest Thomas Smith.
 
 #### Why a single file?
-Why would this be more than one file? It's a simple project. The whole thing is just 1200 lines of code. Google Maps does all the real work.
+Why would this be more than one file? It's a simple project. The whole thing is just 1500 lines long. Google Maps does all the real work.
 
 It doesn't need a framework. It doesn't need a build system. It doesn't even need jquery. [Vanilla JS](http://vanilla-js.com/) is more than enough.
 
