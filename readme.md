@@ -44,7 +44,7 @@ This is, ahem, a bit of a programmer tool. There are several gotchas and silent 
 
 ### Drawing
 
-On the bottom of the map there's a draw button. You want to click that then click and drag on the map. This lets you draw an arbitrary outline for the area you wish to search.
+On the bottom of the map there's a draw button. (It says 'Clear' in the image above). You want to click that then click and drag on the map. This lets you draw an arbitrary outline for the area you wish to search.
 
 ### Advanced Search
 
