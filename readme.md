@@ -18,7 +18,8 @@ For additional information read my extensive [blog post](https://blog.forrestthe
 
 ## Installation
 
-fts_commute_visualizer is a single html file. It contains all HTML, CSS, and JS. It can be run locally. There is no build system. You don't need a webserver. 
+[fts_commute_visualizer.html](fts_commute_visualizer.html) is the only file you need. It contains all HTML, CSS, and JS. It can be run locally. There is no build system. You don't need a webserver.
+
 
 ### Google Maps API Key
 
@@ -33,6 +34,40 @@ You will need your own API key. Creating a new one is free and easy.
 
 The Google cloud free tier is limited to 2500 requests per day. Each hexagon counts as 1 request. After reaching your daily limit Google Maps API calls are heavily throttled.
 
+If you give Google your credit card and sign up for a [free trial](https://cloud.google.com/free/?hl=en_US&_ga=1.18292089.1130590081.1487912420) you can get $300 in free credits. Curiously I'm still not being charged for Distance Matrix queries. I am still throttled, but it's significantly faster. I strongly recommend doing this if you're building large maps or many maps.
+
+## Using the Tool
+
+This is, ahem, a bit of a programmer tool. There are several gotchas and silent errors. Here's what the tool looks like.
+
+![](/examples/tool.png?raw=true)
+
+### Drawing
+
+On the bottom of the map there's a draw button. You want to click that then click and drag on the map. This lets you draw an arbitrary outline for the area you wish to search.
+
+### Advanced Search
+
+When performing an advanced search you must search for a time in the future. If you specify a time in the past it will silently fail. I need to add error messaging.
+
+### Transit
+
+When doing a transit search you almost always want to do an advanced search. Otherwise you will search for routes with a time of "now". Which if you're doing this at home at 8pm is probably not very many routes!
+
+In hindsight I should have made those settings mandatory and always on. It'd prevent a lot of confusion.
+
+### Secret Options
+
+If you open [fts_commute_visualizer.html](fts_commute_visualizer.html) and go to [line 452](https://github.com/forrestthewoods/fts_commute_visualizer/blob/master/fts_commute_visualizer.html#L452) you should see the following line.
+            
+```
+<div id="styleOptionsDiv" style="display:none">
+```
+
+Change "display:none" to "display:block". This turns on some secret options. Of particular note is the ability to hide map UI elements. Which is useful for taking screenshots. You can also mess with hexagon color and opacity at run-time if you feel like changing them.
+
+I wouldn't call these hidden options "officially supported". But they may be of some use.
+
 
 FAQ
 ===
@@ -41,7 +76,7 @@ FAQ
 A tool I built to help visualize how long it takes to commute based on a mode of transport and travel time.
 
 #### What license?
-All source code is embedded with a dual license. Choose either MIT or Unlicense. See fts_commute_visualizer.html for details.
+All source code is embedded with a dual license. Choose either MIT or Unlicense. See [fts_commute_visualizer.html](fts_commute_visualizer.html) for details.
 
 #### What is FTS?
 My initials; Forrest Thomas Smith.
@@ -78,8 +113,3 @@ A few years ago I lived in the Seattle suburb of Kenmore. Located at the norther
 ![](/examples/kenmore_1.png?raw=true)
 ![](/examples/kenmore_2.png?raw=true)
 
-### Browser Tool
-
-Here's what the tool actually looks like. There are a variety of controls such as mode of transport, travel direction, and travel time.
-
-![](/examples/tool.png?raw=true)
