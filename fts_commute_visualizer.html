@@ -1184,7 +1184,7 @@
                 var mapCenter = { lat:map.getCenter().lat(), lng:map.getCenter().lng() };
                 var locationStr = "\"" + mapCenter.lat + "," + mapCenter.lng + "\"";
                 var imageZoom = map.getZoom() - 1;
-                var imagePath ="http://maps.googleapis.com/maps/api/staticmap?scale=2&center=" + locationStr + "&zoom=" + imageZoom + "&size=" + staticMapWidth + "x" + staticMapHeight + "&sensor=false&visual_refresh=true&style=feature:water|color:0x00FF00&style=element:labels|visibility:off&style=feature:transit|visibiity:off&style=feature:poi|visibility:off&style=feature:administrative|visibility:off&style=feature:transit|visibility:off&style=feature:road.highway|color:0x00FF00";
+                var imagePath ="http://maps.googleapis.com/maps/api/staticmap?scale=2&center=" + locationStr + "&key=" + API_KEY + "&zoom=" + imageZoom + "&size=" + staticMapWidth + "x" + staticMapHeight + "&sensor=false&visual_refresh=true&style=feature:water|color:0x00FF00&style=element:labels|visibility:off&style=feature:transit|visibiity:off&style=feature:poi|visibility:off&style=feature:administrative|visibility:off&style=feature:transit|visibility:off&style=feature:road.highway|color:0x00FF00";
 
                 // Example imagePath:
                 // http://maps.googleapis.com/maps/api/staticmap?scale=2&center="47.60620999999991,-122.33207357423623"&zoom=14&size=640x640&sensor=false&visual_refresh=true&style=feature:water|color:0x00FF00&style=element:labels|visibility:off&style=feature:transit|visibiity:off&style=feature:poi|visibility:off&style=feature:administrative|visibility:off&style=feature:transit|visibility:off&style=feature:road.highway|color:0x00FF00
