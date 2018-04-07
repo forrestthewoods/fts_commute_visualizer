@@ -30,7 +30,8 @@ You will need your own API key. Creating a new one is free and easy.
 3. Enable Google Maps Javascript API
 4. Enable Google Maps Distance Matrix API
 5. Enable Google Maps Time Zone API
-6. Replace "YOUR_API_KEY" with your API key.
+6. Enable Google Static Maps API
+7. Replace "YOUR_API_KEY" with your API key.
 
 The Google cloud free tier is limited to 2500 requests per day. Each hexagon counts as 1 request. After reaching your daily limit Google Maps API calls are heavily throttled.
 
